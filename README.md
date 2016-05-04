@@ -7,7 +7,7 @@ Task 2: Create a test account using the above URL.
 
 Task 3: Short description of what techniques you may have used to come up with a set of testing scenario's  
 
-Task 4: Automate one of your scenario's, using Ruby using a POM framework of your choice.
+Task 4: Automate one of your scenario's, using Ruby using a Page Object Model (POM) framework of your choice.
 
 
 
