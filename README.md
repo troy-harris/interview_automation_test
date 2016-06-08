@@ -1,17 +1,22 @@
+# Welcome to the farmdrop technical test for automation testers
 
+Please spend no more than two hours on the following task. You are not expected to finish all of it - this is as much to understand how you approach things as it is to see if you can build working tests.
 
-# Welcome to the farmdrop technical test!!!
+## Background
+Farmdrop sometimes uses a staging site at [https://next.farmdrop.com](https://next.farmdrop.com) to run integration tests.  The database is reset periodically and the payments system is connected to a sandbox, so you can experiment freely.
 
-Task 1: Create a user account on the farmdrop test site URL > https://next.farmdrop.com/login
+## Task
+Please build a suite of tests for the sign up form which will run against this staging site.
 
-Task 2: Put together a list of BDD scenario's for a user logging into the farmdrop site > https://next.farmdrop.com/login. Try to think from regression prospective and come up with as many scenario's as possible.
+2. Write out a series of scenarios as a Cucumber feature file(s). Try to think from regression prospective and come up with as many scenarios as you feel are appropriate in order to make sure this form is fully tested.
+2. Begin to automate your scenarios and continue until your allocated time runs out. Use Cucumber/Ruby and any other gems/frameworks you feel are appropriate.
 
-Task 3: A short description of what tools or techniques you may have used to come up with a list of testing scenario's for Task 2
+## Notes
+* Code reuse is important to us, so we are interested in seeing what approaches you take to keep your code and tests modular.
+* We take version control seriously, so please show us how you approach this.
+* Your submission should include instructions on how to run it.
 
-Task 4: Automate one of your scenario's, using Cucumber/Ruby and any Page Object Model framework of your choice choice.
-
-## # Submission
-
-Please fork this repository, write some code and update this README with a guide of how to run it.
+## Submission
+Please fork this repository and commit code to it. Send us the link to your repo in an email.
 
 Good Luck!!!
