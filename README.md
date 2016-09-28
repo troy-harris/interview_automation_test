@@ -14,6 +14,7 @@ Please build a suite of tests for the sign up form which will run against this s
 ## Notes
 * Code reuse is important to us, so we are interested in seeing what approaches you take to keep your code and tests modular.
 * We take version control seriously, so please show us how you approach this.
+* Can you show an approach to handle multiple browsers(headless,chrome should do) as well.
 * Your submission should include instructions on how to run it.
 
 ## Submission
