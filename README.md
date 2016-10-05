@@ -3,13 +3,18 @@
 ## Prerequisites
 Coffee :coffee:  
 Ruby version >= 2.1.2
-
-## Running
 ```
 $ git clone git@github.com:troy-harris/interview_automation_test.git
 $ cd interview_automation_test
 $ bundle install
+```
+Run full test suite
+```
 $ cucumber
+```
+Run minimal test suite
+```
+$ cucumber --tags @minimal
 ```
 
 ## Tagology
