@@ -1,3 +1,37 @@
+## Framework guidelines
+
+## Prerequisites
+Coffee :coffee:  
+Ruby version >= 2.1.2
+
+## Running
+```
+$ git clone git@github.com:troy-harris/interview_automation_test.git
+$ cd interview_automation_test
+$ bundle install
+$ cucumber
+```
+
+## Tagology
+Tags should be strictly set at the beginning of the test framework so that we may clearly define what area of the
+product we are testing, easily run test subsets, and mark for refactor when our test suite matures.
+
+**Holy grail tag:**  
+@minimal - The evolved test suite should eventually only contain the @minimal tagged scenario in the .feature file. All
+           other scenarios should be removed and covered further down the stack in either unit, integration, or API tests.
+
+**Feature tags:**  
+@authentication - Login and signup
+
+**General tags:**  
+@error_alert - Error dialog displayed  
+@negative - Incorrect use of feature  
+@refactor_frontend_ui_tests - This scenario should eventually be removed, and covered in a frontend UI test suite e.g. Jasmine
+
+  
+ /end 
+
+---
 # Welcome to the farmdrop technical test for automation testers
 
 Please spend no more than two hours on the following task. You are not expected to finish all of it - this is as much to understand how you approach things as it is to see if you can build working tests.
