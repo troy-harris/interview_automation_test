@@ -2,7 +2,7 @@ require 'rubygems'
 require 'selenium-cucumber'
 
 # Store command line arguments
-$browser_type = ENV['BROWSER'] || 'ff'
+$browser_type = ENV['BROWSER'] || 'chrome'
 $platform = ENV['PLATFORM'] || 'desktop'
 $os_version = ENV['OS_VERSION']
 $device_name = ENV['DEVICE_NAME']
@@ -11,6 +11,9 @@ $app_path = ENV['APP_PATH']
 
 # check for valid parameters
 validate_parameters $platform, $browser_type, $app_path
+
+# Set chromedriver path
+Selenium::WebDriver::Chrome::Service.executable_path = './support/webdrivers/chromedriver224'
 
 # If platform is android or ios create driver instance for mobile browser
 if $platform == 'android' or $platform == 'iOS'
