@@ -1,4 +1,6 @@
 ## Framework guidelines
+![alt tag](https://cloud.githubusercontent.com/assets/2392309/19123381/58e0b824-8b26-11e6-890f-67c2ca2d3a19.png)
+
 
 ## Prerequisites
 Coffee :coffee:  
